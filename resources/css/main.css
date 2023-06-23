@@ -51,7 +51,7 @@ body {
     font-weight: bold;
   }
   
-  .section {
+  .section, .projectsection {
     padding: 80px 0;
   }
   
@@ -132,6 +132,14 @@ body {
     transform: translateX(0);
   }
 }
+
+.btn{
+  background-color: #9F8C76;
+  border: #333;
+}
+
+
+
 
 
 
