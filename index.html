@@ -6,12 +6,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
   <link rel="stylesheet" href="resources/css/main.css">
-  <title>My Portfolio</title>
+  <title>Sheryl Hauser Resume</title>
 </head>
 
 <body>
   <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark-beige fixed-top">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
       aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -22,28 +22,28 @@
           <a class="nav-link" href="#about" data-scroll="#about">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#projects" data-scroll="#projects">Projects</a>
+          <a class="nav-link" href="#projects" data-scroll="#projects">Marketing Projects</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#resume" data-scroll="#resume">Resume</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#contact" data-scroll="#contact">Contact</a>
-        </li>
       </ul>
     </div>
-    <a class="navbar-brand ml-auto" href="#">My Portfolio</a>
+    <a class="navbar-brand ml-auto" href="#">Sheryl Hauser Resume</a>
   </nav>
 
 
 
-  <!-- Hero Section -->
-  <header class="hero">
-    <div class="hero-content">
-      <h1>Welcome to My Portfolio</h1>
-      <p>I showcase my programming projects here.</p>
+ <!-- Hero Section -->
+<header class="hero">
+  <div class="hero-content">
+    <div class="profile-picture">
+      <img src="resources/images/Sheryl.jpg" alt="Profile Picture">
     </div>
-  </header>
+    <h2>Hello, I am...</h2>
+    <h1>Sheryl Hauser</h1>
+  </div>
+</header>
 
   <!-- About Section -->
   <section id="about" class="section">
@@ -60,11 +60,39 @@
   </section>
 
   <!-- Projects Section -->
-  <section id="projects" class="section bg-light">
+  <section id="projects" class="section bg-light-beige">
     <div class="container">
       <div class="row">
         <div class="col-lg-8 offset-lg-2">
-          <h2>Projects</h2>
+          <h2>Marketing Projects</h2>
+          <div class="card-deck">
+            <div class="card">
+              <img class="card-img-top" src="resources/images/wedding.png" alt="Project 1">
+              <div class="card-body">
+
+                <h5 class="card-title">Hochzeitsmesse Bern</h5>
+                <ul class="card-text">
+                  <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                  <li>Nulla vestibulum, turpis id gravida fermentum, est odio lobortis velit.</li>
+                </ul>
+              </div>
+            </div>
+            
+            <div class="card">
+              <img class="card-img-top" src="resources/images/Test.jpg" alt="Project 2">
+              <div class="card-body">
+                <h5 class="card-title">Project 2</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vestibulum, turpis
+                  id
+                  gravida fermentum, est odio lobortis velit.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-8 offset-lg-2">
           <div class="card-deck">
             <div class="card">
               <img class="card-img-top" src="resources/images/Test.jpg" alt="Project 1">
@@ -75,6 +103,7 @@
                   gravida fermentum, est odio lobortis velit.</p>
               </div>
             </div>
+            
             <div class="card">
               <img class="card-img-top" src="resources/images/Test.jpg" alt="Project 2">
               <div class="card-body">
@@ -147,28 +176,35 @@
               <h5 class="card-title">Skills</h5>
               <div class="skills">
                 <div class="skill">
-                  <h6>HTML/CSS</h6>
+                  <h6>Projektmanagement</h6>
+                  <p>Test</p>
                   <div class="progress">
                     <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="80"
                       aria-valuemin="0" aria-valuemax="100"></div>
                   </div>
                 </div>
+                <br>
                 <div class="skill">
-                  <h6>JavaScript</h6>
+                  <h6>Design</h6>
+                  <p>Test</p>
                   <div class="progress">
                     <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="75"
                       aria-valuemin="0" aria-valuemax="100"></div>
                   </div>
                 </div>
+                <br>
                 <div class="skill">
-                  <h6>Python</h6>
+                  <h6>Test</h6>
+                  <p>Test</p>
                   <div class="progress">
                     <div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="70"
                       aria-valuemin="0" aria-valuemax="100"></div>
                   </div>
                 </div>
+                <br>
                 <div class="skill">
-                  <h6>Java</h6>
+                  <h6>Test</h6>
+                  <p>Test</p>
                   <div class="progress">
                     <div class="progress-bar" role="progressbar" style="width: 65%;" aria-valuenow="65"
                       aria-valuemin="0" aria-valuemax="100"></div>
@@ -183,36 +219,22 @@
   </section>
 
 
-  <!-- Contact Section -->
-  <section id="contact" class="section">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 offset-lg-2">
-          <h2>Contact Me</h2>
-          <form id="contact-form" method="POST" action="#">
-            <div class="form-group">
-              <label for="name">Name</label>
-              <input type="text" class="form-control" id="name" name="name" required>
-            </div>
-            <div class="form-group">
-              <label for="email">Email</label>
-              <input type="email" class="form-control" id="email" name="email" required>
-            </div>
-            <div class="form-group">
-              <label for="message">Message</label>
-              <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
-            </div>
-            <button type="submit" class="btn btn-primary">Send Message</button>
-          </form>
-        </div>
+<!-- Contact Section -->
+<section id="contact" class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 offset-lg-2">
+        <h2>Contact Me</h2>
+        <p>For inquiries, please email: <span id="email-placeholder"></span></p>
       </div>
     </div>
-  </section>
+  </div>
+</section>
 
   <!-- Footer -->
-  <footer class="footer bg-dark">
+  <footer class="footer bg-dark-beige">
     <div class="container text-center">
-      <span class="text-muted">© 2023 My Portfolio. All rights reserved.</span>
+      <span class="text-white">© 2023 Sheryl Hauser. All rights reserved.</span>
     </div>
   </footer>
 
@@ -252,6 +274,14 @@
       origin: 'bottom',
       easing: 'ease-in-out'
     });
+
+     // Obfuscate and insert the email address
+  document.addEventListener("DOMContentLoaded", function() {
+    var emailPlaceholder = document.getElementById("email-placeholder");
+    var emailAddress = "moc.liamtoh@resuah.lyrehs".split("").reverse().join("");
+    emailPlaceholder.innerHTML = '<a href="mailto:' + emailAddress + '">' + emailAddress + '</a>';
+  });
+
   </script>
 </body>
 
