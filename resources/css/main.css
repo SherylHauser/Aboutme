@@ -87,7 +87,7 @@ body {
     background-color: #fff;
     border: 1px solid #ddd;
     border-top: none;
-    padding: 20px;
+    padding: 30px;
     border-radius: 0 0 5px 5px;
   }
   
@@ -138,11 +138,13 @@ body {
   border: #333;
 }
 
+.graduation-hat-bullets {
+  list-style-type: '🎓';
+  padding-inline-start: 1ch;
+}
 
+.suitcase-bullets {
+  list-style-type: '💼';
+  padding-inline-start: 1ch;
+}
 
-
-
-
-
-
-  

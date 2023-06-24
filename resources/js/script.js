@@ -36,6 +36,12 @@ ScrollReveal().reveal('.skill', {
     origin: 'right',
     easing: 'ease-in-out'
 });
+ScrollReveal().reveal('.resume-item', {
+    delay: 100,
+    distance: '50px',
+    origin: 'right',
+    easing: 'ease-in-out'
+});
 
 // Obfuscate and insert the email address
 document.addEventListener("DOMContentLoaded", function () {
