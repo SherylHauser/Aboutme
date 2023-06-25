@@ -2,6 +2,15 @@
 <html lang="en">
 
 <head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-4PC3WL6XKL"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-4PC3WL6XKL');
+  </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
@@ -366,7 +375,8 @@
   <!-- Footer -->
   <footer class="footer bg-dark-beige">
     <div class="container text-center">
-      <span class="text-white">© 2023 Sheryl Hauser. All rights reserved. <a href="datenschutz.html">Datenschutzerklärung</a></span>
+      <span class="text-white">© 2023 Sheryl Hauser. All rights reserved. <a
+          href="datenschutz.html">Datenschutzerklärung</a></span>
     </div>
   </footer>
 
@@ -377,17 +387,9 @@
   <script src="resources/js/script.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
-  <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-4PC3WL6XKL"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-4PC3WL6XKL');
-
-  var parallax = new Parallax('.hero');
-</script>
+  <script>
+    var parallax = new Parallax('.hero');
+  </script>
 
 </body>
 
