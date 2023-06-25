@@ -148,3 +148,8 @@ body {
   padding-inline-start: 1ch;
 }
 
+.card-img-top{
+  width: 400px;
+  height: auto;
+  border: none;
+}
